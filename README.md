@@ -34,6 +34,10 @@ Avant toute chose, il faut avoir forké le [projet](https://github.com/blank-pro
 Le fork doit être réalisé dans l'organisation [\_blank 2018-2019](https://github.com/blank-4)
 
 - Renommer le fork `blank-exercises-<TRIGRAMME>`
+- Paramétrer le repo :
+ - Désactiver le Wiki
+ - TODO Désactiver les Projets ?
+ - TODO Quel mode de merge ? Squash ou Merge Commit ? Pas rebase à mon avis.
 - Paramétrer les permissions :
   - L'apprenant a les droits *Write* sur le repo
   - L'équipe *Teachers* a les droits *Admin* sur le repo
