@@ -38,6 +38,6 @@ Le fork doit être réalisé dans l'organisation [\_blank 2018-2019](https://git
   - L'apprenant a les droits *Write* sur le repo
   - L'équipe *Teachers* a les droits *Admin* sur le repo
  - Paramétrer les restrictions de branche :
-  - Approval nécessaires pour merger une Pull Request : 1
-  - TODO Trouver comment restreindre les approvals à la seule Team *Teachers*
+   - Approval nécessaires pour merger une Pull Request : 1
+   - TODO Trouver comment restreindre les approvals à la seule Team *Teachers*
 
