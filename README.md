@@ -7,7 +7,8 @@ Exercices pour la formation _blank
 - Créer une branche avec le même nom que le dossier où est situé l'exercice
     - Exemple : si l'exercice est dans `html/lesson1/exercise1`, créer une branche `html/lesson1/exercise1` depuis la branche _master_.
     - `git checkout master` puis `git checkout html/lesson1/exercise1`
-- Résoudre l'exercice dans le même dossier.
+- Créer un sous-dossier `exercise`
+- Résoudre l'exercice dans ce sous-dossier.
 - Pousser (push) votre code vers le _repo_ distant.
     - Exemple : `git push origin html/lesson1/exercise1`.
 - Ouvrir une nouvelle _pull request_ :
@@ -24,26 +25,20 @@ Exercices pour la formation _blank
 
 ## How-To : Mettre en place les exercices
 - Demander au professeur de vous créer votre repo
-- Le cloner :
-
+- Cloner le repertoire sur votre machine, dans le dossier Documents/\_blank/exercises
+- Paramétrer le remote `upstream` :
 ```
-git clone https://github.com/blank-4/blank-exercises_<TRIGRAMME>
+git remote add upstream https://github.com/blank-project/blank-exercises.git
 ```
 
 ## How-To : Mettre en place les exercices (à faire par le professeur).
 
-Avant toute chose, il faut avoir forké le [projet](https://github.com/blank-project/blank-exercises) sur GitHub.
-
-![Fork](https://help.github.com/assets/images/help/repository/fork_button.jpg)
-
-Le fork doit être réalisé dans l'organisation [\_blank 2018-2019](https://github.com/blank-4)
-
-- Renommer le fork `blank-exercises_<TRIGRAMME>`
-    - TRIGRAMME : Première lettre du Prénom + Deux Premières lettre du nom
+- Créer les repos via les assignments GitHub Classrooms.
 - Paramétrer le repo :
- - Désactiver le Wiki
- - Désactiver les Projets ?
- - TODO Quel mode de merge ? Squash ou Merge Commit ? Pas rebase à mon avis.
+  - Désactiver le Wiki
+  - Désactiver les Projets
+  - Désactiver les Issues
+  - Activer uniquement le Squash Merging.
 - Paramétrer les permissions :
   - L'apprenant a les droits *Write* sur le repo
   - L'équipe *Teachers* a les droits *Admin* sur le repo
