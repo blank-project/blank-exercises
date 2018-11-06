@@ -4,7 +4,7 @@
 ### Pour commencer
 Reprendre le groupe de page HTML créé à la suite de l'[exercice 3] et y apporter les modifications suivantes :
 
-* Ajouter un tableau contenant votre nom, prénom, et une phrase quelconque !
+- Ajouter un tableau contenant votre nom, prénom, et une phrase quelconque !
 
 ### Un morpion
 Utiliser un tableau pour créer une grille de Morpion (3 cases par 3 cases).
@@ -14,5 +14,5 @@ Utiliser un tableau pour créer une grille de Sudoku (9 cases par 9 cases).
 Donnez lui un titre.
 
 ### Liste des élèves de \_blank
-Créez une liste des élèves de la formation, en utilisant des cellules d'en-tête (`<th>`).  
+Créez une liste des élèves de la formation, en utilisant des cellules d'en-tête (`<th>`).
 Listez le nom, le prénom et le code postal.

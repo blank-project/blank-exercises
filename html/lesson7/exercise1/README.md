@@ -1,6 +1,13 @@
-* Créez un formulaire de connexion avec :
-  * Un input de type email
-  * Un input de type password
-  * Une checkbox pour savoir si l'utilisateur veut rester connecté (avec un label l'informant)
-  * Un bouton submit
-  * L'adresse d'action doit etre : [http://blank.bellevillecitoyenne.fr/courses/html/lesson7/form.php](http://blank.bellevillecitoyenne.fr/courses/html/lesson7/form.php)
+# HTML > Lesson7 > Exercise 1
+
+Créer un formulaire d'inscription contenant les champs suivant :
+- Nom (Texte)
+- Prénom (Texte)
+- Email (Email)
+- Sexe (Bouton Radio)
+- Date de Naissance (Date)
+- Age (Number)
+- N° de Telephone (Teléphone)
+- Inscription à la newsletter (Case à cocher)
+
+Le formulaire enverra une requete POST à l'adresse http://www.example.org
