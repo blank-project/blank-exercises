@@ -2,9 +2,11 @@
 
 Créer une page HTML contenant les balises suivantes :
 
-* `article`
-* `header`
-* plusieurs `section`
-* `footer`
+- `header`
+- `article`
+- plusieurs `section`
+- `footer`
 
-A vous d'utiliser ces dernières correctement 
+A vous d'utiliser ces dernières correctement.
+
+Ajoutez y du contenu.
