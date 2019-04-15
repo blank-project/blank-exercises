@@ -4,25 +4,23 @@
 
 Pour effectuer une requete AJAX, on a besoin d'un serveur. En effet, les navigateurs nous interdisent de faire des requetes entre fichiers statiques et serveurs.
 
-* Placez vous dans le dossier de votre exercice à l'aide du terminal. Rappel : Pour se déplacer dans un dossier, utilisez la commande `cd`
-* Vérifiez que vous etes dans le bon dossier avec la commande `pwd`
-* Créez un fichier `index.html`
-* Démarrez votre serveur avec la commande : `python -m SimpleHTTPServer`
-* Vérifiez que votre serveur est accessible à l'adresse suivante : `http://localhost:8000`
+* Vérifiez que vous avez bien l'extension Live Server par Ritwick Dey.
+* Lancez votre serveur dans visual studio à l'aide de la combinaise de touche `Alt + L, Alt + O`.
+* Vérifiez que votre serveur est accessible à l'adresse suivante : [http://localhost:5500](http://localhost:5500)
 
-## Téléchargeons les données
+## Utilisons les données de la mairie de Paris !
 
-Pour effectuer une requete AJAX, on a besoin de données !
-* Créez un fichier `data.json` dans le dossier de votre projet
-* Mettez y le texte que vous trouverez ici : [http://blank.bellevillecitoyenne.fr/courses/javascript/lesson6/sample-data.json](http://blank.bellevillecitoyenne.fr/courses/javascript/lesson6/sample-data.json)
-* Arretez votre serveur avec `CTRL + C`
-* Relancez votre serveur
-* Vérifiez que vos données sont accessibles à [http://localhost:8000/data.json](http://localhost:8000/data.json)
+* Naviguez vers ce lien pour obtenir des données concernant les arbres remarquables à Paris: [https://opendata.paris.fr/explore/dataset/arbresremarquablesparis/api/](https://opendata.paris.fr/explore/dataset/arbresremarquablesparis/api/)
 
 
 ## Passons à l'exercice
 
 * Créez un fichier `script.js` et incluez le dans votre page HTML
-* Effectuez une requete AJAX sur l'addresse suivante : [http://localhost:8000/data.json](http://localhost:8000/data.json)
+* Utilisez une requête AJAX pour récupérer les données des arbres remarquables à Paris.
 * Récupérez la réponse de votre requete avec `this.responseText`. Pour le "parser" et le transformer en objet JavaScript vous pouvez utiliser la méthode `parse` de l'objet `JSON` : `JSON.parse(this.responseText)`. Voir la doc ici : [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
-* Interprétez les données en javascript pour générer un HTML cohérant (sous forme de carte ?)
+* Interprétez les données en javascript pour générer un HTML cohérant, que vous insérerez dans le DOM (sous forme d'un tableau ?)
+
+## BONUS :
+* Faire une pagination (10 par 10).
+* Faire un fitre de requête, ou l'on peut chercher les arbres par leur nom.
+* Générez une carte avec Leaflet en indiquant la position des arbres remarquables.
