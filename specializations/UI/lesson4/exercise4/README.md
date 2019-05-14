@@ -18,4 +18,4 @@ Créer un avatar vous ressemblant
 - C'est un processus un peu long, mais qui est assez simple à effectuer. Prenez votre temps !
 
 ## Rendu
-**Fichiers png** de votre avatar
+**Fichier png** de votre avatar

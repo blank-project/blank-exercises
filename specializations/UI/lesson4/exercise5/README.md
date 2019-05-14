@@ -14,4 +14,4 @@ Créer une illustration à partir de cette image
 - C'est un processus un peu long, mais qui est assez simple à effectuer. Prenez votre temps !
 
 ## Rendu
-**Fichiers png** de votre illustration
+**Fichier png** de votre illustration
